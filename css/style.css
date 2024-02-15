@@ -369,6 +369,10 @@ fill: #f4f4fd;
     letter-spacing: 0.02em;
 }
 /* FOOTER */
+.container-footer{
+    display: flex;
+    gap: 120px;
+}
 .contact {
     background-color: #2E2F42;
     padding: 100px 0;
@@ -401,7 +405,21 @@ fill: #f4f4fd;
     background-color: #2E2F42;
     line-height: 1.5;
     max-width: 264px;
-    
+   
     letter-spacing: 0.32px;
 
 }
+.social{
+    /* font-family: "Roboto", sans-serif; */
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+.social-link-footer{
+display: flex;
+gap: 16px;
+}
+
