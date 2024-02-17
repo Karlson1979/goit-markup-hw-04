@@ -27,7 +27,8 @@ ul{
 .header{
     padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
-   
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
 }
 .container{
     width: 1158px; 
@@ -74,6 +75,7 @@ color: #2e2f42;
     letter-spacing: 0.32px;
 }
 
+
 span {
     color: #2e2f42;
 
@@ -96,6 +98,23 @@ span {
 
 .link-header:focus {
     color: #404bbf;
+}
+
+.active{
+    position: relative;
+    padding: 20px;
+    color: #404bbf; 
+}
+.active::after{
+content: "";
+position: absolute;
+display: block;
+width: 100%;
+height: 4px;
+background-color: #404BBF;
+left:0;
+bottom: 0;
+
 }
 
 address {
