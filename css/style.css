@@ -322,10 +322,12 @@ color: #2e2f42;
     height: 40px;
    display: flex;
    justify-content: center;
-   align-items: center;
-   
-    
+   align-items: center; 
 }
+.icon-cocial-link:hover, .icon-cocial-link:focus{
+    background-color: #404bbf; 
+}
+
 .list-social{
     display: flex;
     gap: 24px;
@@ -342,6 +344,7 @@ fill: #f4f4fd;
     align-items: center;
     gap:24px;
 }
+
 
 /* <!-- SECTION-4 --> */
 
