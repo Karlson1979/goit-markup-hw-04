@@ -329,6 +329,7 @@ color: #2e2f42;
 .list-social{
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 .icon-cocial{
 fill: #f4f4fd;
