@@ -434,6 +434,19 @@ transform: translateY(100%);
 .container-footer{
     display: flex;
     gap: 120px;
+    align-items: baseline;
+}
+
+.footer-contact{
+    margin-right: 120px;
+}
+.list-footer{
+    display: flex;
+    gap: 16px;
+}
+.item-footer{
+    width: 40px; 
+    height: 40px; 
 }
 .contact {
     background-color: #2E2F42;
