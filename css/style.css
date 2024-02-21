@@ -148,6 +148,7 @@ background-size: cover;
     text-align: center;  
     background-repeat: no-repeat; 
     background-position: center;
+    margin:0 auto;
     
 }
 .container-benefits{
@@ -434,7 +435,7 @@ transform: translateY(100%);
 /* FOOTER */
 .container-footer{
     display: flex;
-    gap: 120px;
+    
     align-items: baseline;
 }
 
